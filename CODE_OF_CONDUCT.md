@@ -36,7 +36,7 @@ Unacceptable behavior from any community member, including those with decision-m
 
 ## Reporting Guidelines
 
-If you are subjected to or notice unacceptable behavior, or have any other concerns, please report it by contacting us at [your-email@example.com]. We will review all reports and take appropriate action.
+If you are subjected to or notice unacceptable behavior, or have any other concerns, please report it by contacting us at [gdscpce@mes.ac.in]. We will review all reports and take appropriate action.
 
 ## Addressing Grievances
 
@@ -48,7 +48,7 @@ This Code of Conduct applies both within community spaces and in public spaces w
 
 ## Contact Information
 
-For any questions or concerns regarding this Code of Conduct, please reach out to us at [your-email@example.com].
+For any questions or concerns regarding this Code of Conduct, please reach out to us at [gdscpce@mes.ac.in].
 
 ## Acknowledgement
 
