@@ -51,9 +51,4 @@ If you encounter any issues or bugs, please open an issue in the repository. Inc
 ## 📜 Code of Conduct
 By participating in this community, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md). We are committed to providing a welcoming and supportive environment for all contributors.
 
-## 💬 Community Communication
-Join our community channels to stay updated on events, workshops, and discussions:
-- **Slack Channel**: [Join here](#)
-- **Discord Server**: [Join here](#)
-
 Thank you for contributing! Together, we can build a strong community and empower each other to learn and grow. 🚀
