@@ -10,7 +10,7 @@ We’re excited that you want to contribute to our community! Your involvement i
 2. **Clone Your Fork**  
    Clone your forked repository to your local machine:
    ```bash
-   git clone https://github.com/gdgpce/BadgeCardGenerator.git
+   git clone https://github.com/yourguthubusername/BadgeCardGenerator.git
    ```
    
 3. **Create a New Branch**  
@@ -47,6 +47,13 @@ If you encounter any issues or bugs, please open an issue in the repository. Inc
 - A descriptive title
 - Steps to reproduce the issue
 - Any relevant screenshots or logs
+
+## UI Reference Images
+Below are the reference images for the UI of the badge generator and the badge itself:
+
+## Badge UI :
+
+## Overall UI :
 
 ## 📜 Code of Conduct
 By participating in this community, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md). We are committed to providing a welcoming and supportive environment for all contributors.

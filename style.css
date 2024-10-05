@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #ffffff;
+  --downloadbtn-color: #00bbff;
+  --sharebtn-color: #ffaa00;
+  --border-color: #ced4da;
+  --font-color: #333333;
+  --username-color: #666666;
+  --border-raduis: 15px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--primary-color);
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+main {
+  display: block;
+  min-height: 100vh;
+  position: relative;
+}
+
+.section {
+  height: 100vh;
+}
