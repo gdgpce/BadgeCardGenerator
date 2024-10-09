@@ -4,34 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Badge</title>
+    <title>Badge Card Generator</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <main>
+    <header class="navbar">
+        <img src="assets/logo.jpg" alt="Logo" />
+    </header>
 
-        <header>
-            <!-- header goes here  -->
-        </header>
+    <div class="container">
+        <h2>Badge Card Generator</h2>
 
-        <section>
-            <div class="input-div">
-                <!-- input goes here  -->
+        <div class="form-container">
+            <p>Name:</p>
+            <input id="fullName" placeholder="Full Name" type="text" />
+            <p>Github ID: </p>
+            <input id="githubUsername" placeholder="GitHub Username" type="text" />
+            <p>Upload Photo: </p>
+            <input accept="image/*" id="uploadPhoto" placeholder="Upload photo" type="file" />
+            <div class="buttons">
+                <button class="btn generate-btn" onclick="generateBadge()">Generate</button>
+                <button class="btn download-btn" onclick="downloadBadge()">Download</button>
             </div>
-            <div class="badge-div">
-                <!-- badge goes here  -->
-            </div>
-        </section>
+        </div>
 
-        <footer>
-            <!-- footer goes here -->
-        </footer>
-    </main>
+        
+        <div class="badge-container" id="badgeCard">
+            <img alt="Profile photo" id="profilePhoto" src="assets/gray-checkers-background.jpg" />
+            <div class="name" id="badgeName">Name</div>
+            <div class="github">
+                <i class="fab fa-github"></i>
+                <span id="badgeGithub">GitHub Username</span>
+            </div>
+            <div class="img2">
+                <img src="assets/logo.jpg" alt="Logo" />
+            </div>
+            <div class="crafted">Crafted with ❤️ during Hacktoberfest!</div>
+        </div>
+    </div>
+
+    <footer>
+        <!-- footer -->
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    
 </body>
 
 </html>
